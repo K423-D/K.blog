@@ -1,0 +1,22 @@
+{
+  "name": "k.blog",
+  "version": "1.0.0",
+  "description": "a simple blog build with vuepress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "vuepress eject",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com.cnpmjs.org/k423-d/k.blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
