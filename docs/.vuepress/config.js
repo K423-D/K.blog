@@ -3,7 +3,7 @@
  * @Author       : k423
  * @Date         : 2020-06-17 13:56:20
  * @LastEditors  : k423
- * @LastEditTime : 2020-06-17 16:06:24
+ * @LastEditTime : 2020-07-01 14:23:05
  * @FilePath     : \k.blog\docs\.vuepress\config.js
  */
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
     // 将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
     sidebarDepth: 2,
     // 文档更新时间：每个文件git最后提交的时间
-    lastUpdated: "Last Update",
+    lastUpdated: "最后更新",
 
     // 导航栏配置
     nav: [
@@ -70,7 +70,7 @@ module.exports = {
       "/front-end/": [
         // "/front-end/", // front-end文件夹的README.md 不是下拉框形式
         {
-          collapsable: false,
+          collapsable: true,
           title: "React",
           children: [
             "/front-end/react/introduction", // 以docs为根目录来查找文件
@@ -79,7 +79,7 @@ module.exports = {
           ],
         },
         {
-          collapsable: false,
+          collapsable: true,
           title: "Vue",
           children: ["/front-end/vue/introduction"],
         },
@@ -87,46 +87,46 @@ module.exports = {
       // docs文件夹下面的back-end文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
       "/back-end/": [
         {
-          collapsable: false,
+          collapsable: true,
           title: "Node.js",
           children: ["/back-end/node.js/introduction"],
         },
         {
-          collapsable: false,
+          collapsable: true,
           title: "Nest.js",
           children: ["/back-end/nest.js/introduction"],
         },
         {
-          collapsable: false,
+          collapsable: true,
           title: "Express",
           children: ["/back-end/express/introduction"],
         },
       ],
       "/android/": [
         {
-          collapsable: false,
+          collapsable: true,
           title: "Flutter",
           children: ["/android/flutter/introduction"],
         },
         {
-          collapsable: false,
+          collapsable: true,
           title: "Java",
           children: ["/android/java/introduction"],
         },
         {
-          collapsable: false,
+          collapsable: true,
           title: "Kotlin",
           children: ["/android/kotlin/introduction"],
         },
       ],
       "/database/": [
         {
-          collapsable: false,
+          collapsable: true,
           title: "MySQL",
           children: ["/database/mysql/introduction"],
         },
         {
-          collapsable: false,
+          collapsable: true,
           title: "Mongodb",
           children: ["/database/mongodb/introduction"],
         },
